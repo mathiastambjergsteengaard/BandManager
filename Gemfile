@@ -25,6 +25,11 @@ gem 'haml'
 gem 'sass'
 gem 'simple_form'
 gem 'haml-rails'
+
+gem 'bootstrap-sass', '3.2.0.0'
+
+gem 'bcrypt'
+
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rails_12factor', group: :production

@@ -1,0 +1,9 @@
+.center.jumbotron
+  .row.col-md-6.col-md-offset-3
+    = simple_form_for :session, url: login_path, method: :post do |f|
+      = f.input :email
+      = f.input :password
+      = f.submit "Log in"
+
+  .btn.btn-lg
+    = link_to "Sign Up", new_user_path

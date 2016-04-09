@@ -10,9 +10,9 @@ class UsersController < ApplicationController
   end
 
   def show
-    @user = User.where(email: params[:user][:email] && password: params[:user][:password])
-    if !@user.present?
-      render 'welcome/index'
-    end
+  #   @user = User.where(email: params[:user][:email] && password: params[:user][:password])
+  #   if !@user.present?
+  #     render 'welcome/index'
+  #   end
   end
 end
